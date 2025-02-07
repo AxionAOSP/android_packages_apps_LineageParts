@@ -198,16 +198,13 @@
 
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.system" />
+                android:value="com.android.settings.category.ia.display" />
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_statusbar" />
             <meta-data
                 android:name="com.android.settings.icon_tintable"
                 android:value="true" />
-            <meta-data
-                android:name="com.android.settings.order"
-                android:value="-254" />
             <meta-data
                 android:name="com.android.settings.profile"
                 android:value="primary_profile_only" />
