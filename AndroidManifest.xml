@@ -200,9 +200,6 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
             <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_statusbar" />
-            <meta-data
                 android:name="com.android.settings.icon_tintable"
                 android:value="true" />
             <meta-data
@@ -210,7 +207,7 @@
                 android:value="primary_profile_only" />
             <meta-data
                 android:name="com.android.settings.summary"
-                android:resource="@string/summary_empty" />
+                android:resource="@string/status_bar_summary" />
         </activity-alias>
 
         <!-- Trust interface (Privacy category) -->
