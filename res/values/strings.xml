@@ -689,4 +689,8 @@
     <string name="sms_security_check_limit_summary">Apps can send %s messages in 1 minute before requiring confirmation</string>
     <string name="sms_security_check_limit_summary_none">Apps are not allowed to send any messages without confirmation</string>
     <string name="sms_security_check_limit_always_confirm">Always confirm</string>
+    
+    <!-- WiFi Standard icon -->
+    <string name="wifi_standard_icon_title">WiFi standard</string>
+    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
 </resources>
