@@ -27,6 +27,12 @@
         android:title="@string/status_bar_icons_title">
 
         <lineageos.preference.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
+        <lineageos.preference.SystemSettingSwitchPreference
             android:key="wifi_standard_icon"
             android:title="@string/wifi_standard_icon_title"
             android:summary="@string/wifi_standard_icon_summary"
