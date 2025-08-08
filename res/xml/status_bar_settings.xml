@@ -100,4 +100,18 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/status_bar_brightness_category">
+
+        <lineageos.preference.SecureSettingListPreference
+            android:key="qs_brightness_slider_enabled"
+            android:title="@string/status_bar_brightness_slider_title"
+            android:summary="%s"
+            android:dialogTitle="@string/status_bar_brightness_slider_title"
+            android:entries="@array/status_bar_brightness_slider_entries"
+            android:entryValues="@array/status_bar_brightness_slider_values"
+            android:defaultValue="2" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
