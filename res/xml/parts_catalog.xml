@@ -78,7 +78,7 @@
     <part android:key="long_screen_settings"
           android:title="@string/long_screen_settings_title"
           android:summary="@string/long_screen_settings_summary"
-          android:fragment="org.lineageos.lineageparts.applications.LongScreenSettings"
+          android:fragment="org.lineageos.lineageparts.applications.ForceFullscreenSettings"
           lineage:xmlRes="@xml/long_screen_prefs" />
 
     <part android:key="charging_sounds_settings"
